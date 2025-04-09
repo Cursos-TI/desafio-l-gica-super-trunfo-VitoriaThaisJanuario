@@ -8,7 +8,7 @@
      //Definição das variáveis para armazenar as propriedades das cidades
     char estado1, estado2;
     char codigo1[5] , codigo2[5];
-    char cidade1[50], cidade2[50];
+    char cidade1[20], cidade2[20];
     int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
@@ -25,7 +25,7 @@
     scanf("%s", &codigo1);
 
     printf("Nome da Cidade:\n");
-    scanf('%[^] \n', &cidade1);
+    scanf("%[^]", cidade1);
 
     printf("População:\n");
     scanf("%d", &populacao1);
@@ -52,7 +52,7 @@
     scanf('%s', &codigo2);
 
     printf("Nome da Cidade:\n");
-    scanf('[^]\n', &cidade2);
+    scanf("%[^]", cidade2);
 
     printf("População:\n");
     scanf("%d", &populacao2);
