@@ -25,7 +25,7 @@
     scanf("%s", &codigo1);
 
     printf("Nome da Cidade:\n");
-    scanf('%s', &cidade1);
+    scanf('%[^] \n', &cidade1);
 
     printf("População:\n");
     scanf("%d", &populacao1);
@@ -52,7 +52,7 @@
     scanf('%s', &codigo2);
 
     printf("Nome da Cidade:\n");
-    scanf('%s', &cidade2);
+    scanf('[^]\n', &cidade2);
 
     printf("População:\n");
     scanf("%d", &populacao2);
